@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>9월 부암동 한옥 모임 - 에어비앤비 트렌드 연구 | 웰컴 커뮤니티</title>
 
-<!-- 카카오톡·네이버 공유 미리보기. 배포 주소가 정해지면 YOURSITE 두 곳을 바꿉니다 -->
+<!-- 카카오톡·네이버 공유 미리보기 -->
 <meta property="og:type" content="website">
 <meta property="og:title" content="9월 부암동 한옥 모임 - 에어비앤비 트렌드 연구">
 <meta property="og:description" content="9월 11일(금) · 9월 17일(목) 오후 3시 · 웰컴미스테익스하우스 · 각 회차 10명">
-<meta property="og:image" content="https://YOURSITE/share.png">
+<meta property="og:image" content="https://hahnookyi.github.io/openhouse/share.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:url" content="https://YOURSITE/">
+<meta property="og:url" content="https://hahnookyi.github.io/openhouse/">
 <meta name="twitter:card" content="summary_large_image">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
@@ -118,7 +118,7 @@
   }
   .row:first-of-type{border-top:0;padding-top:0}
   .row dt{
-    flex:0 0 44px;
+    flex:0 0 62px;
     font-size:14px;
     font-weight:600;
     color:var(--label);
@@ -141,6 +141,30 @@
     vertical-align:middle;
   }
   .contact{display:flex;align-items:center;flex-wrap:wrap;gap:4px}
+
+  /* ── 회신 버튼 ─────────────────────────── */
+  .reply{margin-top:28px;padding-top:24px;border-top:1px solid var(--hairline);text-align:center}
+  .reply-q{font-size:15px;font-weight:700;color:var(--ink);margin-bottom:16px}
+  .reply-note{font-size:13px;color:var(--muted);line-height:1.7;margin-top:16px}
+  .reply-note a{color:var(--muted)}
+
+  .btn{
+    display:block;
+    text-decoration:none;
+    text-align:center;
+    border-radius:12px;
+    padding:15px 16px;
+    font-size:15px;
+    font-weight:600;
+    letter-spacing:-0.01em;
+  }
+  .btn + .btn{margin-top:10px}
+  .btn-primary{background:var(--accent);color:#fff}
+  .btn-map{background:var(--canvas);color:var(--ink);border:1px solid #dddddd}
+
+  /* ── 오시는 길 ─────────────────────────── */
+  .addr{font-size:17px;font-weight:700;color:var(--ink);text-align:center;margin-bottom:4px}
+  .addr-sub{font-size:14px;color:var(--muted);text-align:center;margin:0 0 24px}
 
   /* ── 맺음 ─────────────────────────────── */
   .rule{
@@ -220,16 +244,39 @@
       </div>
 
       <div class="row">
-        <dt>신청</dt>
+        <dt>회신</dt>
         <dd>
-          <span>아래 연락처로 먼저 연락 주시면 입금 계좌를 안내드립니다.</span>
-          <span>입금 확인 후, 이 글에 댓글 <b>"참석합니다 (11일 또는 17일)"</b></span>
+          <span>참가비 입금은 이미 확인되었습니다.</span>
+          <span>참석하실 회차만 아래 버튼으로 알려 주세요.</span>
         </dd>
       </div>
 
+    </dl>
+
+    <div class="reply">
+      <p class="reply-q">어느 회차로 오시나요?</p>
+      <a class="btn btn-primary" href="sms:01099464629?&body=%EC%B0%B8%EC%84%9D%ED%95%A9%EB%8B%88%EB%8B%A4%20%E2%80%A2%209%EC%9B%94%2011%EC%9D%BC%28%EA%B8%88%29%20%2F%20%EC%84%B1%ED%95%A8%3A%20">1회차 · 9월 11일 (금) 참석</a>
+      <a class="btn btn-primary" href="sms:01099464629?&body=%EC%B0%B8%EC%84%9D%ED%95%A9%EB%8B%88%EB%8B%A4%20%E2%80%A2%209%EC%9B%94%2017%EC%9D%BC%28%EB%AA%A9%29%20%2F%20%EC%84%B1%ED%95%A8%3A%20">2회차 · 9월 17일 (목) 참석</a>
+      <p class="reply-note">문자 앱이 열리지 않으면 아래 번호로 연락 주세요.<br>이한욱 <a href="tel:01099464629">010-9946-4629</a></p>
+    </div>
+  </section>
+
+  <section class="card">
+    <h3>오시는 길</h3>
+
+    <p class="addr">서울 종로구 창의문로7길 27</p>
+    <p class="addr-sub">웰컴미스테익스하우스 · 부암동 326-3</p>
+
+    <a class="btn btn-map" href="https://map.naver.com/p/search/%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EC%B0%BD%EC%9D%98%EB%AC%B8%EB%A1%9C7%EA%B8%B8%2027" target="_blank" rel="noopener">네이버 지도로 길찾기</a>
+    <a class="btn btn-map" href="https://www.google.com/maps/dir/?api=1&amp;destination=%EC%84%9C%EC%9A%B8%20%EC%A2%85%EB%A1%9C%EA%B5%AC%20%EC%B0%BD%EC%9D%98%EB%AC%B8%EB%A1%9C7%EA%B8%B8%2027" target="_blank" rel="noopener">구글 지도로 길찾기</a>
+
+    <dl style="text-align:left;margin-top:24px">
       <div class="row">
-        <dt>연락처</dt>
-        <dd class="contact">이한욱 <a class="tel" href="tel:01099464629">010-9946-4629</a></dd>
+        <dt>대중교통</dt>
+        <dd>
+          <span>경복궁역 3번 출구에서 버스 1020, 7022, 7212</span>
+          <span>자하문고개(윤동주문학관) 정류장 하차</span>
+        </dd>
       </div>
 
       <div class="row">
@@ -239,7 +286,6 @@
           <span>모두의주차장 앱 이용 또는 대중교통 이용을 부탁드립니다.</span>
         </dd>
       </div>
-
     </dl>
   </section>
 

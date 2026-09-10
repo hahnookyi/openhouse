@@ -33,7 +33,7 @@ wmh-logo.png / ai-living-stay-white.png
 3. 도입부 문구와 `<h2>` 아래 본문 문단
 4. `모임 안내` 카드의 일시 / 주제 / 정원 / 신청 / 연락처 / 주차
 5. `share.png` 와 `og-image.png` 교체
-6. 배포 주소가 정해지면 `og:image` 와 `og:url` 의 `YOURSITE` 두 곳
+6. 저장소 주소가 바뀌면 `og:image` 와 `og:url` (현재 https://hahnookyi.github.io/openhouse/)
 
 ## 스타일 토큰
 
